@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+}
+
+.whole-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container {
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    background-color: white;
+}
+
+.top-left, .top-right, .bottom-left, .bottom-right {
+    height: 15vh;
+    width: 15vh;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 100%;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100%;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 100%;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 100%;
+}
+
+.top-right-mid, .top-left-mid, .bottom-right-mid, .bottom-left-mid {
+    width: 10vh;
+    height: 10vh;
+}
+
+.top-right-mid {
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100%;
+}
+
+.top-left-mid {
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 100%;
+}
+
+.bottom-right-mid {
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 100%;
+}
+
+.bottom-left-mid {
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 100%;
+}
+
+#red-box {
+    background-color: red;
+}
+
+#green-box {
+    background-color: green;
+}
+
+#orange-box {
+    background-color: orange;
+}
+
+#deeppink-box {
+    background-color: deeppink;
+}
+
+.circle {
+    width: 30vh;
+    height: 30vh;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mid-square {
+    width: 30vh;
+    height: 30vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box-square {
+    width: 10vh;
+    height: 10vh;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mid-circle {
+    width: 20vh;
+    height: 20vh;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
