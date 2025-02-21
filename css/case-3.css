@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+
+section {
+  position: relative;
+  height: 97.5vh;
+}
+
+main {
+  position: relative;
+  height: 95vh;
+}
+
+.circle {
+  border-radius: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+#outer-circle {
+  height: 400px;
+  width: 400px;
+  border: 18px solid rosybrown;
+}
+
+#inner-circle {
+  height: 380px;
+  width: 380px;
+  border: 15px solid crimson;
+}
+
+.content-circle {
+  position: absolute;
+  height: 384px;
+  width: 384px;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#content-1-circle {
+  background-color: purple;
+}
+
+#content-2-circle {
+  background-color: cadetblue;
+}
+
+#content-3-circle {
+  background-color: red;
+}
+
+.card > main > .content-circle > p {
+  margin: 0;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
