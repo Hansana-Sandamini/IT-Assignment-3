@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  display: flex;
+  top: 0;
+  height: 5vh;
+  padding: 10px;
+}
+
+.card > header > h3 {
+  color: white;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+}
+
+main {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card > main > div {
+  position: relative;
+}
+
+.card > main > div > p {
+  margin-top: 0;
+  text-align: center;
+  font-size: 150px;
+  font-weight: bold;
+  color: black;
+}
+
+.card-1 > header {
+  background-color: red;
+}
+
+.card-2 > header {
+  background-color: navy;
+}
+
+.card-3 > header {
+  background-color: #313131;
+}
+
+.card-4 > header {
+  background-color: maroon;
+}
+
+.card-1 > main {
+  background-color: white;
+}
+
+.card-2 > main {
+  background-color: dodgerblue;
+}
+
+.card-3 > main {
+  background-color: dimgray;
+}
+
+.card-4 > main {
+  background-color: orangered;
+}
